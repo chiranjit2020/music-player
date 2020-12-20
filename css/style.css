@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.3;
+    background-image: url('../audio/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music_container {
+    width: 20%;
+    max-height: 500px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0;
+    border: 1px solid #777;
+    backdrop-filter: blur(30px);
+}
+
+#title {
+    font-family: 'Yeseva One', cursive;
+    font-size: 25px;
+    color: #123;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+#artist {
+    font-family: inherit;
+    font-size: 16px;
+    color: #222;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.img_container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, .2);
+}
+
+#counter {
+    margin: 0 0 15px 0;
+}
+
+#current,
+#total {
+    display: inline-block;
+    font-family: inherit;
+    font-size: 18px;
+    color: #222;
+    line-height: 1.3;
+}
+
+.controls {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.controls .bx {
+    font-size: 30px;
+    color: #1A237E;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.controls .bx:hover {
+    color: #E91E63;
+}
+
+.anime {
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
