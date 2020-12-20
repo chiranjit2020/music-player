@@ -101,11 +101,21 @@ body {
 }
 
 .controls .bx:hover {
-    color: #E91E63;
+    color: #21254c;
 }
 
 .anime {
     animation: animate 10s linear infinite;
+}
+
+@-webkit-keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes animate {
@@ -132,6 +142,10 @@ body {
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+    }
+    
+    .controls .bx {
+        font-size: 45px;
     }
 }
 
