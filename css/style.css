@@ -30,12 +30,13 @@ body {
     width: 20%;
     max-height: 500px;
     text-align: center;
-    background-color: rgba(255, 255, 255, .5);
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .2);
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .02);
     border-radius: 15px;
     padding: 20px;
     margin: 0 30px;
-    border: 1px solid #777;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
     backdrop-filter: blur(30px);
 }
 
@@ -122,6 +123,15 @@ body {
     .music_container {
         width: 100%;
         margin: 0 30px;
+        height: 700px;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
